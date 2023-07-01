@@ -1,5 +1,14 @@
 import React from "react";
+import NavBar from "./NavBar";
 
-const App = () => <h2>Surreal Estate</h2>;
+import "../styles/app.css";
+
+const App = () => {
+  return (
+    <div className="app">
+      <NavBar />
+    </div>
+  );
+};
 
 export default App;
