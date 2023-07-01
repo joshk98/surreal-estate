@@ -1,16 +1,15 @@
 .navbar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
-  position: sticky;
 }
 
 img {
-  width: 150px;
-  margin-left: 1em;
-  margin-right: 2em;
+  width: 175px;
 }
 
 .navbar-links {
@@ -28,8 +27,28 @@ img {
 
 .navbar-links-item a {
   text-decoration: none;
+  position: relative;
 }
 
 .navbar-links-item a:visited {
   color: inherit;
+}
+
+.navbar-links-item a.active {
+  font-weight: bold;
+}
+
+.navbar-links-item a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-links-item a.active:after {
+  width: 100%;
 }
