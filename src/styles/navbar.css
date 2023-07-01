@@ -9,6 +9,7 @@
 
 img {
   width: 150px;
+  margin-left: 1em;
   margin-right: 2em;
 }
 
@@ -27,4 +28,8 @@ img {
 
 .navbar-links-item a {
   text-decoration: none;
+}
+
+.navbar-links-item a:visited {
+  color: inherit;
 }

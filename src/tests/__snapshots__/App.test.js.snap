@@ -2,8 +2,47 @@
 
 exports[`App renders correctly 1`] = `
 <DocumentFragment>
-  <h2>
-    Surreal Estate
-  </h2>
+  <div
+    class="app"
+  >
+    <div
+      class="navbar"
+    >
+      <img
+        alt="logo"
+        class="navbar-logo"
+        src="https://mcrcodes.s3.eu-west-2.amazonaws.com/course/surreal-estate/logo.png"
+      />
+      <ul
+        class="navbar-links"
+      >
+        <li
+          class="navbar-links-item"
+        >
+          <a
+            class="item"
+            href="/"
+          >
+            View Properties
+          </a>
+        </li>
+        <li
+          class="navbar-links-item"
+        >
+          <a
+            class="item"
+            href="/add-property"
+          >
+            Add a Property
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="properties"
+    >
+      Properties Page
+    </div>
+  </div>
 </DocumentFragment>
 `;
