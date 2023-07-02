@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 import "../styles/add-property.css";
 
@@ -17,8 +18,15 @@ const AddProperty = () => {
   const [fields, setFields] = useState(initialState.fields);
   const handleAddProperty = (event) => {
     event.preventDefault();
-    console.log(fields);
-    setFields(initialState.fields);
+    axios
+      .post("http://localhost:4000/api/v1/PropertyListing", fields)
+      .then((response) => {
+        console.log("Property added: ", response.data);
+        setFields(initialState.fields);
+      })
+      .catch((error) => {
+        console.error("Error adding property: ", error);
+      });
   };
   const handleFieldChange = (event) => {
     setFields({ ...fields, [event.target.name]: event.target.value });
@@ -80,7 +88,8 @@ const AddProperty = () => {
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-            <option value="4+">4+</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
         </label>
         <label htmlFor="bedrooms">
@@ -94,7 +103,8 @@ const AddProperty = () => {
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-            <option value="4+">4+</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
         </label>
         <label htmlFor="price">
@@ -117,7 +127,7 @@ const AddProperty = () => {
             id="email"
             name="email"
             value={fields.email}
-            placeholder="e.g., johnsmith@gmail.com"
+            placeholder="e.g., john.smith@gmail.com"
             onChange={handleFieldChange}
             required
             type="email"
