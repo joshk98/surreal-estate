@@ -13,7 +13,7 @@ const NavBar = () => {
       />
       <ul className="navbar-links">
         <li className="navbar-links-item">
-          <NavLink className="item" exact to="/">
+          <NavLink className="item" exact="true" to="/">
             View Properties
           </NavLink>
         </li>

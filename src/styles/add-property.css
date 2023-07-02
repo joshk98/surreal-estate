@@ -1,7 +1,49 @@
 .add-property {
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin-top: 2em;
-  padding: 0;
+  margin-top: 5em;
+}
+
+.add-property-form {
+  width: 20em;
+  padding: 2em;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 0.4em;
+}
+
+.add-property-form label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.add-property-form input,
+.add-property-form select {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+}
+
+.add-property-form button {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin-top: 1.5em;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.add-property-form button:hover {
+  background-color: #45a049;
+}
+
+.form-label {
+  margin-bottom: 0.4em;
 }

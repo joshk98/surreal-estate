@@ -22,6 +22,7 @@ exports[`App renders correctly 1`] = `
           <a
             aria-current="page"
             class="item active"
+            exact="true"
             href="/"
           >
             View Properties
