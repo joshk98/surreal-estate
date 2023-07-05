@@ -8,9 +8,10 @@
 .add-property-form {
   width: 20em;
   padding: 2em;
-  background-color: #f4f4f4;
-  border: 1px solid #ccc;
+  background-color: white;
+  border: 1px solid white;
   border-radius: 0.4em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .add-property-form label {
@@ -22,7 +23,7 @@
 .add-property-form select {
   width: 100%;
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid lightgray;
   border-radius: 0.4em;
   box-sizing: border-box;
 }
@@ -33,7 +34,7 @@
   padding: 1em;
   margin-top: 1.5em;
   background-color: #4caf50;
-  color: #fff;
+  color: white;
   border: none;
   border-radius: 0.4em;
   cursor: pointer;

@@ -1,38 +1,56 @@
 {
   "env": {
-      "browser": true,
-      "es6": true,
-      "jest": true
+    "browser": true,
+    "es6": true,
+    "jest": true
   },
   "extends": [
-      "plugin:prettier/recommended",
-      "airbnb"
+    "airbnb",
+    "plugin:prettier/recommended"
   ],
   "globals": {
-      "Atomics": "readonly",
-      "SharedArrayBuffer": "readonly"
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
   "parserOptions": {
-      "ecmaFeatures": {
-          "jsx": true
-      },
-      "ecmaVersion": 2018,
-      "sourceType": "module"
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
   "plugins": [
-      "react"
+    "react"
   ],
   "rules": {
-    "no-underscore-dangle": [0],
-    "react/jsx-props-no-spreading": [0],
-    "react/prop-types": [0],
-    "import/order": [1],
-    "no-unused-vars": [1],
-    "prettier/prettier": [1, { "endOfLine": "auto" }],
+    "no-underscore-dangle": [
+      0
+    ],
+    "react/jsx-props-no-spreading": [
+      0
+    ],
+    "react/prop-types": [
+      0
+    ],
+    "import/order": [
+      1
+    ],
+    "no-unused-vars": [
+      1
+    ],
+    "prettier/prettier": [
+      1,
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
       }
     ],
     "react/function-component-definition": [

@@ -6,18 +6,16 @@ import AddProperty from "./AddProperty";
 
 import "../styles/app.css";
 
-const App = () => {
-  return (
-    <Router>
-      <div className="app">
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Properties />} />
-          <Route path="/add-property" element={<AddProperty />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-};
+const App = () => (
+  <Router>
+    <div className="app">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Properties />} />
+        <Route path="/add-property" element={<AddProperty />} />
+      </Routes>
+    </div>
+  </Router>
+);
 
 export default App;
