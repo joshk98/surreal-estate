@@ -1,0 +1,33 @@
+.alert-success,
+.alert-error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-message {
+  padding: 1em;
+  border-radius: 0.4em;
+  font-size: inherit;
+  text-align: center;
+  border: 2px solid;
+  font-weight: bold;
+}
+
+.alert-success .alert-message {
+  color: darkgreen;
+  background-color: rgb(181, 201, 181);
+  border-color: darkgreen;
+}
+
+.alert-error .alert-message {
+  color: darkred;
+  background-color: rgb(211, 182, 182);
+  border-color: darkred;
+}
