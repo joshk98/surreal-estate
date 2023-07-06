@@ -16,8 +16,9 @@
   border-radius: 0.4em;
   font-size: inherit;
   text-align: center;
-  border: 2px solid;
+  border: 4px solid;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 .alert-success .alert-message {
