@@ -1,0 +1,44 @@
+.property-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  padding: 2em;
+  width: 15em;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.4em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.property-card__title {
+  font-weight: bold;
+}
+
+.property-card__type__city {
+  font-style: italic;
+}
+
+.property-card__title,
+.property-card__type__city,
+.property-card__bathrooms,
+.property-card__bedrooms,
+.property-card__price {
+  padding: .6em;
+}
+
+.property-card__email {
+  margin-top: 1em;
+  padding: 1em;
+  width: 100%;
+  background-color: rgb(139, 25, 139);
+  color: white;
+  border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+.property-card__email:hover {
+  background-color: rgb(83, 2, 83);
+}

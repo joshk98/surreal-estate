@@ -67,6 +67,7 @@ const AddProperty = () => {
             value={fields.title}
             placeholder="e.g., 2 bed cottage"
             onChange={handleFieldChange}
+            maxLength={30}
             required
           />
         </label>
