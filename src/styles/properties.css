@@ -1,7 +1,6 @@
 .properties {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 2em;
-  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  margin: 1em;
   padding: 2em;
   width: 15em;
   background-color: white;
@@ -20,6 +20,12 @@
   font-style: italic;
 }
 
+.property-card__icon {
+  font-size: 3rem;
+  color: rgb(139, 25, 139);
+}
+
+.property-card__icon,
 .property-card__title,
 .property-card__type__city,
 .property-card__bathrooms,

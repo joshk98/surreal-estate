@@ -5,6 +5,7 @@ import {
   faBath,
   faSterlingSign,
   faEnvelope,
+  faHouseChimney,
 } from "@fortawesome/free-solid-svg-icons";
 import "../styles/property-card.css";
 
@@ -19,6 +20,9 @@ const PropertyCard = ({
 }) => {
   return (
     <div className="property-card" data-testid="property-card">
+      <div className="property-card__icon">
+        <FontAwesomeIcon icon={faHouseChimney} />
+      </div>
       <div className="property-card__title">{title}</div>
       <div className="property-card__type__city">
         {type} - {city}
