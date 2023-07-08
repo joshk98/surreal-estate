@@ -18,6 +18,7 @@ exports[`AddProperty renders correctly 1`] = `
         </div>
         <input
           id="title"
+          maxlength="30"
           name="title"
           placeholder="e.g., 2 bed cottage"
           required=""

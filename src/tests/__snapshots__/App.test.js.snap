@@ -42,9 +42,7 @@ exports[`App renders correctly 1`] = `
     </div>
     <div
       class="properties"
-    >
-      Properties Page
-    </div>
+    />
   </div>
 </DocumentFragment>
 `;
