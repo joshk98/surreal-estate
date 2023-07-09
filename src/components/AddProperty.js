@@ -37,7 +37,7 @@ const AddProperty = () => {
         setFields(initialState.fields);
         setTimeout(() => {
           setAlert({ message: "", isSuccess: false });
-        }, 3000);
+        }, 2000);
       })
       .catch((error) => {
         setAlert({
@@ -48,7 +48,7 @@ const AddProperty = () => {
         setFields(initialState.fields);
         setTimeout(() => {
           setAlert({ message: "", isSuccess: false });
-        }, 3000);
+        }, 2000);
       });
   };
   const handleFieldChange = (event) => {

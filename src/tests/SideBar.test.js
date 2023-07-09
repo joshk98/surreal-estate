@@ -1,13 +1,13 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Properties from "../components/Properties";
+import SideBar from "../components/SideBar";
 
-describe("Properties", () => {
+describe("SideBar", () => {
   it("renders correctly", () => {
     const { asFragment } = render(
       <Router>
-        <Properties />
+        <SideBar />
       </Router>
     );
 

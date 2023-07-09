@@ -41,8 +41,55 @@ exports[`App renders correctly 1`] = `
       </ul>
     </div>
     <div
-      class="properties"
-    />
+      class="container"
+    >
+      <div
+        class="side-bar"
+      >
+        <div
+          class="side-bar__links"
+        >
+          <a
+            href="/"
+          >
+            Show All
+          </a>
+          <a
+            href="/?query={\\"city\\":\\"Manchester\\"}"
+          >
+            Manchester
+          </a>
+          <a
+            href="/?query={\\"city\\":\\"Leeds\\"}"
+          >
+            Leeds
+          </a>
+          <a
+            href="/?query={\\"city\\":\\"Sheffield\\"}"
+          >
+            Sheffield
+          </a>
+          <a
+            href="/?query={\\"city\\":\\"Liverpool\\"}"
+          >
+            Liverpool
+          </a>
+          <a
+            href="/?sort={\\"price\\":1}"
+          >
+            Price Ascending
+          </a>
+          <a
+            href="/?sort={\\"price\\":-1}"
+          >
+            Price Descending
+          </a>
+        </div>
+      </div>
+      <div
+        class="properties"
+      />
+    </div>
   </div>
 </DocumentFragment>
 `;

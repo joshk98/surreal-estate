@@ -1,0 +1,19 @@
+.side-bar__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 52, 56);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.side-bar__links a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+.side-bar__links a:hover {
+  background-color: rgba(131, 129, 129, 0.507);
+}
