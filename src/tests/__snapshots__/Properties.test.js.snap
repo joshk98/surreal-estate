@@ -11,6 +11,21 @@ exports[`Properties renders correctly 1`] = `
       <div
         class="side-bar__links"
       >
+        <form
+          class="search-form"
+        >
+          <input
+            class="search-input"
+            type="text"
+            value=""
+          />
+          <button
+            class="search-button"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
         <a
           href="/"
         >
