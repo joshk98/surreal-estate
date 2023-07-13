@@ -17,3 +17,15 @@
 .side-bar__links a:hover {
   background-color: rgba(131, 129, 129, 0.507);
 }
+
+.search-button {
+  margin: .25em;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.search-form {
+  padding: .5em;
+}

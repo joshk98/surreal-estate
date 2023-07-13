@@ -10,7 +10,8 @@ import "../styles/properties.css";
 const Properties = () => {
   const [properties, setProperties] = useState([]);
   const [alert, setAlert] = useState({ message: "", isSuccess: false });
-  const { search } = useLocation();
+  const location = useLocation();
+  const { search } = location;
 
   useEffect(() => {
     setAlert({ message: "", isSuccess: false });
@@ -41,7 +42,7 @@ const Properties = () => {
   return (
     <div className="container">
       <div className="side-bar">
-        <SideBar />
+        <SideBar search={search} />
       </div>
       <div className="properties">
         <Alert message={alert.message} success={alert.isSuccess} />
