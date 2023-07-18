@@ -1,6 +1,6 @@
 # Surreal Estate App
 
-## Concepts
+## Learning Concepts
 
 - Single Page Application (SPA)
 - Client-side Routing
