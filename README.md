@@ -1,5 +1,7 @@
 # Surreal Estate App
 
+Surreal Estate App is a work in progress. Stay tuned for more!
+
 ## Learning Concepts
 
 - Single Page Application (SPA)
