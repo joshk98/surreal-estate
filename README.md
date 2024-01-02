@@ -1,6 +1,6 @@
 # Surreal Estate App
 
-Surreal Estate App is a work in progress. Stay tuned for more!
+Surreal Estate App is an app made with Create-React-App.
 
 ## Learning Concepts
 
